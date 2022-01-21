@@ -48,3 +48,4 @@ app.use('/api/articles', commentRouter);
 app.use('/api/user', authRouter);
 app.use('/api/user', adminRouter);
 app.use('/api', contactUsRouter);
+app.use('/api', contactUsRouter);
